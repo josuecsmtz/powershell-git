@@ -64,7 +64,7 @@ Cambia la ruta o el directorio actual. Para usarlo se escribe `cd` seguido del *
 # Acceder a carpeta de documentos estando en el directorio correcto
 cd .\Documents\ 
 # Acceder mediante la ruta
-cd \Users\jhonp\Documents\
+cd \Users\USERNAME\Documents\
 ```
 
  Para retroceder en una ruta se agrega un `..` después del comando. Usando `../..` se puede retroceder varias rutas a la vez.
@@ -116,8 +116,8 @@ También se puede crear un directorio en cualquier ubicación del sistema de arc
 
 ```bash
 # Crear carpeta en Documents usando ruta absoluta
-mkdir C:\Users\jhonp\Documents\tarea
-# Crear carpeta en Documents usando ruta relativa (suponiendo que ya estamos en C:\Users\jhonp)
+mkdir C:\Users\USERNAME\Documents\tarea
+# Crear carpeta en Documents usando ruta relativa (suponiendo que ya estamos en C:\Users\USERNAME)
 mkdir Documents\tarea
 ```
 
@@ -177,9 +177,9 @@ Copia y duplica archivos o carpetas seleccionadas a una carpeta de destino.
 
 ```bash
 # Copiar el archivo "hOLI.txt" a otra carpeta
-cp hOLI.txt C:\Users\jhonp\Documents
+cp hOLI.txt C:\Users\USERNAME\Documents
 # Copiar varios archivos de texto a la vez
-cp *.txt C:\Users\jhonp\Documents
+cp *.txt C:\Users\USERNAME\Documents
 ```
 Para copiar carpetas completas agregar `-Recurse` al final de la línea de código.
 
@@ -194,13 +194,13 @@ Mover o renombrar archivos o carpetas.
 
 ```bash
 # Mover archivo a otra carpeta
-mv hOLI.txt C:\Users\jhonp\Documents\tarea
+mv hOLI.txt C:\Users\USERNAME\Documents\tarea
 
 # Renombrar archivo
 mv hOLI.txt hOLIIIIII.txt
 
 # Mover carpeta completa con contenido
-mv "tarea de Charly" C:\Users\jhonp\Documents -Recurse
+mv "tarea de Charly" C:\Users\USERNAME\Documents -Recurse
 ```
 
 ---
@@ -242,13 +242,13 @@ Inicializa un nuevo repositorio de Git en el directorio actual, transformándolo
 
 #### Ejemplo:
 
-Crear un nuevo repositorio Git en la carpeta que queremos versionar (por ejemplo, estando en la ruta C:/Users/jhonp/Documents/Tarea de Charly). (Para saber como acceder a un directorio consultar el [comando cd](#cd-change-directory))
+Crear un nuevo repositorio Git en la carpeta que queremos versionar (por ejemplo, estando en la ruta C:/Users/USERNAME/Documents/Tarea de Charly). (Para saber como acceder a un directorio consultar el [comando cd](#cd-change-directory))
 
 ```bash
 git init
 
 # Salida típica:
-# Initialized empty Git repository in C:/Users/jhonp/Documents/Tarea de Charly/.git/
+# Initialized empty Git repository in C:/Users/USERNAME/Documents/Tarea de Charly/.git/
 ```
 
 <div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Aunque, una vez ejecutado el comando <code>init</code>, Git ya esté inicializado en el proyecto, no guarda versiones automáticamente. Para registrar cambios en el historial es necesario hacerlo manualmente, mediante otros comandos que se verán en la lista. </div>
