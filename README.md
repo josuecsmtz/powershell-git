@@ -160,9 +160,7 @@ cat "hOLI.txt"
 cat archivo1.txt, archivo2.txt
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: También puede combinar archivos o redirigir su contenido, pero para esto es más recomendable usar <code>Out-File</code> o <code>Set-Content</code>.
-</div>
+>💡 Tip: También puede combinar archivos o redirigir su contenido, pero para esto es más recomendable usar <code>Out-File</code> o <code>Set-Content</code>.
 
 ---
 
@@ -177,9 +175,7 @@ cp *.txt C:\Users\USERNAME\Documents
 ```
 Para copiar carpetas completas agregar `-Recurse` al final de la línea de código.
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: Sí no se incluye el <code>-Recurse</code> la carpeta se copiará vacía.
-</div>
+>💡 Tip: Sí no se incluye el <code>-Recurse</code> la carpeta se copiará vacía.
 
 ---
 
@@ -224,9 +220,7 @@ Algunos de sus comandos principales son:
 - [pull](#pull)
 - [fetch](#fetch)
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:10px solid #1e90ff; margin-bottom:15px;">
-💡 <strong>Tip:</strong> Todos los siguientes comandos deben iniciarse con el subcomando <code>git</code>, ya que es el programa que ejecuta cada instrucción.
-</div>
+>💡 <strong>Tip:</strong> Todos los siguientes comandos deben iniciarse con el subcomando <code>git</code>, ya que es el programa que ejecuta cada instrucción.
 
 ---
 
@@ -245,7 +239,7 @@ git init
 # Initialized empty Git repository in C:/Users/USERNAME/Documents/Tarea de Charly/.git/
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Aunque, una vez ejecutado el comando <code>init</code>, Git ya esté inicializado en el proyecto, no guarda versiones automáticamente. Para registrar cambios en el historial es necesario hacerlo manualmente, mediante otros comandos que se verán en la lista. </div>
+> 💡 Tip: Aunque, una vez ejecutado el comando <code>init</code>, Git ya esté inicializado en el proyecto, no guarda versiones automáticamente. Para registrar cambios en el historial es necesario hacerlo manualmente, mediante otros comandos que se verán en la lista. </div>
 
 ---
 
@@ -266,7 +260,7 @@ git config --global user.email "ejemplo@correo.com"
 git config --list
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: <strong>--global</strong> aplica la configuración a todos los repositorios del usuario. Para configuraciones específicas de un proyecto, omitir <code>--global</code> y se aplicará solo al repositorio actual. </div>
+> 💡 Tip: <strong>--global</strong> aplica la configuración a todos los repositorios del usuario. Para configuraciones específicas de un proyecto, omitir <code>--global</code> y se aplicará solo al repositorio actual.
 
 ---
 
@@ -309,7 +303,7 @@ git commit -m "Se agregó la funcionalidad para calcular el promedio de las nota
 #  2 files changed, 25 insertions(+), 2 deletions(-)
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 <strong>Tip:</strong> Se recomienda configurar el <code>user.name</code> y el <code>user.email</code> con <code>git config</code> antes de realizar el primer <code>git commit</code>. De lo contrario, Git no permitirá registrar cambios hasta que estos datos estén definidos. </div>
+> 💡 <strong>Tip:</strong> Se recomienda configurar el <code>user.name</code> y el <code>user.email</code> con <code>git config</code> antes de realizar el primer <code>git commit</code>. De lo contrario, Git no permitirá registrar cambios hasta que estos datos estén definidos.
 
 ---
 
@@ -387,9 +381,7 @@ git diff <commit1> <commit2>
 git diff main feature-branch
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: <code>git diff</code> muestra las diferencias entre archivos, commits o ramas sin modificar nada. Es ideal para revisar cambios antes de hacer un <code>git commit</code>.
-</div>
+>💡 **Tip:** <code>git diff</code> muestra las diferencias entre archivos, commits o ramas sin modificar nada. Es ideal para revisar cambios antes de hacer un <code>git commit</code>.
 
 ---
 
@@ -416,7 +408,7 @@ git branch -m dev development
 git branch -d sandbox
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Una vez creada la rama con <code>git branch</code>, para cambiarse a ella es necesario usar <code>git checkout nombre-de-rama</code> o el más moderno <code>git switch nombre-de-rama</code>. </div>
+> 💡 **Tip:** Una vez creada la rama con <code>git branch</code>, para cambiarse a ella es necesario usar <code>git checkout nombre-de-rama</code> o el más moderno <code>git switch nombre-de-rama</code>.
 
 ---
 
@@ -437,7 +429,7 @@ git checkout -- archivo.txt
 git checkout <commit> -- archivo.txt
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: También se puede usar <code>git checkout -b nombre-nueva-rama </code> para crear una nueva rama y cambiar a ella en un solo paso.  </div>
+> 💡 **Tip:** También se puede usar <code>git checkout -b nombre-nueva-rama </code> para crear una nueva rama y cambiar a ella en un solo paso.  </div>
 
 ---
 
@@ -464,9 +456,7 @@ git merge dev
 # 2 files changed, 4 insertions(+), 3 deletions(-)
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: El comando <code>merge</code> funciona <strong>solo localmente</strong>, uniendo ramas dentro del proyecto en la máquina. Para actualizar la versión <strong>remota</strong> y que otros colaboradores vean los cambios fusionados, se debe usar <code>git push</code>.
-</div>
+>💡 **Tip:** El comando <code>merge</code> funciona <strong>solo localmente</strong>, uniendo ramas dentro del proyecto en la máquina. Para actualizar la versión <strong>remota</strong> y que otros colaboradores vean los cambios fusionados, se debe usar <code>git push</code>.
 
 ---
 
@@ -492,13 +482,11 @@ git clone https://github.com/usuario/nombre-del-repositorio.git
 # También se puede especificar la ruta de destino
 git clone <url-del-repositorio> <ruta-de-destino>
 ```
-<div style="background-color:#eaf7ff; padding:10px; border-left:10px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: Git admite distintos tipos de URL para los repositorios:  
-- <strong>HTTPS</strong>: fácil de usar y seguro, requiere usuario/token para escribir.  
-- <strong>SSH</strong>: más seguro para operaciones de escritura usando llaves.  
-- <strong>Git</strong>: solo lectura, rápido pero no seguro para escribir.  
-- <strong>Ruta local</strong>: clonar repositorios que ya existen en tu máquina o red local.
-</div>
+>💡 **Tip:** Git admite distintos tipos de URL para los repositorios:  
+>- <strong>HTTPS</strong>: fácil de usar y seguro, requiere usuario/token para escribir.  
+>- <strong>SSH</strong>: más seguro para operaciones de escritura usando llaves.  
+>- <strong>Git</strong>: solo lectura, rápido pero no seguro para escribir.  
+>- <strong>Ruta local</strong>: clonar repositorios que ya existen en tu máquina o red local.
 
 ---
 
@@ -531,11 +519,9 @@ git push --all <NOMBRE-REMOTO>
 git push --force <NOMBRE-REMOTO> <RAMA-REMOTA>
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: Al hacer <code>git push</code> por primera vez, Git puede pedir autenticación con GitHub. 
-Esto puede hacerse directamente en la terminal o a través de una ventana emergente de inicio de sesión, 
+>💡 **Tip:** Al hacer <code>git push</code> por primera vez, Git puede pedir autenticación con GitHub. 
+>Esto puede hacerse directamente en la terminal o a través de una ventana emergente de inicio de sesión, 
 dependiendo de cómo esté configurado Git.
-</div>
 
 ---
 
@@ -565,7 +551,7 @@ git pull origin main
 #  2 files changed, 4 insertions(+), 3 deletions(-)
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Al usar <code>git pull</code> se recomienda estar en la rama correcta (ejemplo: <code>main</code> o <code>dev</code>), ya que los cambios descargados se fusionarán automáticamente en esa rama. </div>
+> 💡 Tip: Al usar <code>git pull</code> se recomienda estar en la rama correcta (ejemplo: <code>main</code> o <code>dev</code>), ya que los cambios descargados se fusionarán automáticamente en esa rama.
 
 ---
 
@@ -605,7 +591,7 @@ En el caso de Windows, lo haremos de la siguiente manera:
     <img src="https://i.imgur.com/zKtoA8E.gif" alt="¿Cómo abrir PowerShell?" width="500">
     </div>
 
-    <div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Git también incluye su propia terminal, conocida como Git Bash, que permite ejecutar comandos de Linux en Windows. Sin embargo, se recomienda PowerShell, ya que es más rápida y práctica para los ejercicios y proyectos que realizaremos, además de su integración nativa con Windows. </div>
+    > 💡 **Tip:** Git también incluye su propia terminal, conocida como Git Bash, que permite ejecutar comandos de Linux en Windows. Sin embargo, se recomienda PowerShell, ya que es más rápida y práctica para los ejercicios y proyectos que realizaremos, además de su integración nativa con Windows.
 
     Ahora nos situaremos en la ruta en la que queremos crear nuestra carpeta, en caso del ejemplo la crearemos en la carpeta documentos mediante el comando [mkdir](#mkdir-make-directory) y posteriormente nos situamos en ella mediante el comando [cd](#cd-change-directory).
 
@@ -613,7 +599,7 @@ En el caso de Windows, lo haremos de la siguiente manera:
     <img src="https://i.imgur.com/zaHJRUx.gif" alt="Crear carpeta" width="500">
     </div>
 
-    <div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Recuerda que si estás en otra ruta ya establecida puedes subir niveles usando <code>cd ..</code>. </div>
+    > 💡 **Tip:** Recuerda que si estás en otra ruta ya establecida puedes subir niveles usando <code>cd ..</code>.
 
 
 2. **Inicializar el repositorio (`git init`):**
@@ -632,7 +618,7 @@ En el caso de Windows, lo haremos de la siguiente manera:
     <img src="https://i.imgur.com/XM2BJ79.gif" alt="Añadir a Staging Zone" width="500">
     </div>
 
-    <div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Recuerda que para saber en que area de Git se encuentra nuestro archivo usamos <code>git status</code>. </div>
+    > 💡 **Tip:** Recuerda que para saber en que area de Git se encuentra nuestro archivo usamos <code>git status</code>. </div>
 
 4. **Realizar un primer commit. Añadir el archivo al repositorio mediante (`git commit`).**
 
