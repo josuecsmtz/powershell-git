@@ -32,6 +32,7 @@
     - [`pull` - Traer cambios del remoto](#pull)
     - [`fetch` - Descargar cambios sin fusionar](#fetch)
 *  [Funcionamiento de Git - Creación de un repositorio a partir PowerShell](#️-funcionamiento-de-git---creación-de-un-repositorio-a-partir-powershell)
+*  [Fuentes bibliográficas](#-fuentes-bibliográficas)
 
 ---
 
@@ -629,3 +630,12 @@ En el caso de Windows, lo haremos de la siguiente manera:
     </div>
 
 Y listo, así la versión de nuestro archivo, en ese momento, ya está guardada en el repositorio local de Git. El subirlo al repositorio en la nube será visto en la siguiente sección.
+
+---
+
+## 📚 Fuentes bibliográficas
+
+1. [Documentación oficial de PowerShell](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.5)
+2. [Módulo de PowerShell para Host Integration Server](https://learn.microsoft.com/es-es/host-integration-server/core/powershell-module-cmdlets-and-commands)
+3. [Tutorial de Atlassian sobre cómo crear un repositorio Git](https://www.atlassian.com/git/tutorials/setting-up-a-repository)
+4. [Video tutorial de Git en YouTube](https://www.youtube.com/watch?v=HiXLkL42tMU&list=PLQ5-JVD7cjaIkLg3b2bQ0w2aO9pB6uf3B&index=2)
