@@ -201,6 +201,8 @@ mv "tarea de Charly" C:\Users\USERNAME\Documents -Recurse
   <img src="https://www.innerzaurus.com/wp-content/uploads/2020/08/Logo-de-Git.png" alt="Logo de Git" width="200">
 </div>
 
+Git es un sistema de control de versiones que permite registrar y guardar un historial de cambios en archivos y proyectos a lo largo del tiempo dentro de un repositorio, manteniendo un registro completo de todas las modificaciones. Esto facilita la colaboración entre varios desarrolladores, el seguimiento de cambios, la recuperación de versiones anteriores, entre otros beneficios.
+
 Para entender Git, antes es necesario conocer las **áreas o zonas que lo conforman**, ya que cada comando interactúa con una de ellas.  
 
 | Zona / Área         | Qué contiene                                  | Ejemplo de estado |
