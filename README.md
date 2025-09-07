@@ -32,7 +32,7 @@
     - [`pull` - Traer cambios del remoto](#pull)
     - [`fetch` - Descargar cambios sin fusionar](#fetch)
 *  [Funcionamiento de Git - Creación de un repositorio a partir PowerShell](#️-funcionamiento-de-git---creación-de-un-repositorio-a-partir-powershell)
-*  [Fuentes bibliográficas](#-fuentes-bibliográficas)
+*  [Fuentes y material de apoyo](#-fuentes-y-material-de-apoyo)
 
 ---
 
@@ -643,7 +643,7 @@ Y listo, así la versión de nuestro archivo, en ese momento, ya está guardada 
 
 ---
 
-## 📚 Fuentes bibliográficas
+## 📚 Fuentes y material de apoyo
 
 1. [Documentación oficial de PowerShell](https://learn.microsoft.com/es-es/powershell/scripting/overview?view=powershell-7.5)
 2. [Módulo de PowerShell para Host Integration Server](https://learn.microsoft.com/es-es/host-integration-server/core/powershell-module-cmdlets-and-commands)
