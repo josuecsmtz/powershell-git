@@ -624,15 +624,28 @@ En el caso de Windows, lo haremos de la siguiente manera:
 
 2. **Inicializar el repositorio (`git init`):**
 
-   Ahora ya localizados en la ruta de nuestra carpeta a versionar iniciaremos un repositorio de git usando el comando [git init](#init).
+   Ya localizados en la ruta de nuestra carpeta a versionar iniciaremos un repositorio de git usando el comando [git init](#init).
 
     <div style="text-align: center; margin-bottom: 10px;">
     <img src="https://i.imgur.com/0FoJdeF.gif" alt="Crear carpeta" width="500">
     </div>
 
-3. **Agregar archivos (`git add -A`):**
+3. **Agregar archivos (`git add`):**
 
+    Una vez creado el repositorio en nuestra carpeta, crearemos un archivo cualquiera, en nuestro caso será un .txt, este se encontrará en el area de untracked files (archivos no seguidos por Git), posteriormente lo añadiremos al area de trabajo o staging area con el comando [`git add -A`](#add).
 
+    <div style="text-align: center; margin-bottom: 10px;">
+    <img src="https://i.imgur.com/XM2BJ79.gif" alt="Añadir a Staging Zone" width="500">
+    </div>
 
+    <div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;"> 💡 Tip: Recuerda que para saber en que area de Git se encuentra nuestro archivo usamos <code>git status</code>. </div>
 
+4. **Realizar un primer commit. Añadir el archivo al repositorio mediante (`git commit`).**
 
+    Ya teniendo nuestro archivo en la staging zone o area de preparación, podemos proceder a subir esa version del archivo al repositorio Git mediante el comando [`git commit -m`](#commit)
+
+    <div style="text-align: center; margin-bottom: 10px;">
+    <img src="https://i.imgur.com/YscFCdk.gif" alt="Añadir al repositorio" width="500">
+    </div>
+
+Y listo, así la versión de nuestro archivo, en ese momento, ya está guardada en el repositorio local de Git. El subirlo al repositorio en la nube será visto en la siguiente sección.
