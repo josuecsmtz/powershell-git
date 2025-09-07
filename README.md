@@ -201,10 +201,18 @@ mv "tarea de Charly" C:\Users\USERNAME\Documents -Recurse
   <img src="https://www.innerzaurus.com/wp-content/uploads/2020/08/Logo-de-Git.png" alt="Logo de Git" width="200">
 </div>
 
+Para entender Git, antes es necesario conocer las **áreas o zonas que lo conforman**, ya que cada comando interactúa con una de ellas.  
 
-Git es un sistema de control de versiones que permite registrar y guardar un historial de cambios en archivos y proyectos a lo largo del tiempo dentro de un repositorio, manteniendo un registro completo de todas las modificaciones. Esto facilita la colaboración entre varios desarrolladores, el seguimiento de cambios, la recuperación de versiones anteriores, entre otros beneficios.
+| Zona / Área         | Qué contiene                                  | Ejemplo de estado |
+|---------------------|-----------------------------------------------|-------------------|
+| **Untracked files** | Archivos nuevos que Git aún no controla.      | `archivo.txt` recién creado. |
+| **Staging area**    | Zona de preparación donde se guardan los cambios listos para confirmar. | Archivos añadidos con `git add`. |
+| **Base de datos Git (Repositorio local)** | Donde se almacenan permanentemente los commits en tu máquina. | Historial confirmado con `git commit`. |
+| **Repositorio remoto (GitHub, GitLab, etc.)** | Copia del proyecto en un servidor, usada para colaborar. | Se sincroniza con `git push` y `git pull`. |
 
-Algunos de sus comandos principales son:
+---
+
+Para interactuar entre ellas y nuestros archivos se usarán los siguientes comandos:
 
 - [init](#init)
 - [config](#config)
