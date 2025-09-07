@@ -106,9 +106,7 @@ mkdir tarea
 mkdir tarea1, tarea2
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:10px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: Sí el nombre de la carpeta tiene espacios, escribir el nombre entre comillas. Ej: <code>mkdir "tarea de Charly".</code>
-</div>
+>💡 Tip: Sí el nombre de la carpeta tiene espacios, escribir el nombre entre comillas. Ej: <code>mkdir "tarea de Charly".</code>
 
 También se puede crear un directorio en cualquier ubicación del sistema de archivos especificando una ruta absoluta o relativa. 
 
@@ -119,15 +117,13 @@ mkdir C:\Users\USERNAME\Documents\tarea
 mkdir Documents\tarea
 ```
 
-<div style="background-color:#eaf7ff; padding:10px; border-left:5px solid #1e90ff; margin-bottom:15px;">
-💡 Tip: Para crear carpetas en lugares específicos, se pueden usar símbolos especiales:  
-- <code>.</code> = carpeta actual  
-- <code>..</code> = carpeta padre (un nivel arriba). 
-
-Ejemplo:  
-<code>mkdir .\tarea</code> → crea la carpeta dentro de la carpeta actual.  
-<code>mkdir ..\tarea2</code> → crea la carpeta en la carpeta padre.
-</div>
+>💡 Tip: Para crear carpetas en lugares específicos, se pueden usar símbolos especiales:  
+>- <code>.</code> = carpeta actual  
+>- <code>..</code> = carpeta padre (un nivel arriba). 
+>
+>Ejemplo:  
+><code>mkdir .\tarea</code> → crea la carpeta dentro de la carpeta actual.  
+><code>mkdir ..\tarea2</code> → crea la carpeta en la carpeta padre.
 
 ---
 
